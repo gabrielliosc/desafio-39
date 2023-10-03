@@ -1,0 +1,6 @@
+:root {
+    --purple: #685ed9;
+    --purple-dark: #4439C7;
+    --gradient-light: linear-gradient(#4453B2,#502C9E);
+    --gradient-dark: linear-gradient(90deg, #0F0A31,#3F347E);
+}

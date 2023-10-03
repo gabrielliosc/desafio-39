@@ -1,0 +1,44 @@
+@import url('./brand.css');
+@import url('./base.css');
+@import url('./rating.css');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: var(--gradient-dark);
+}
+.container{
+    margin: 100px 10px;
+    text-align: center;
+    width: 410px;
+}
+.product{
+    background-color: var(--purple);
+    border-radius: 20px 20px 0px 0px;
+    height: 184px;
+    width: 410px;
+}
+.product img{
+    position: relative;
+    top: -60px;
+    height: 232px;
+    width: 140px;
+}
+.content{
+    background-color: var(--gray);
+    border-radius: 0px 0px 20px 20px ;
+    padding: 10px;
+}
+.content ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+.content p.label{
+    display: flex;
+    justify-content: space-between;
+}
